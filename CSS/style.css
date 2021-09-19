@@ -1,0 +1,212 @@
+/*navbar starts*/
+.green{
+    color: #15B935;
+/*    color: rgb(155,200,97);*/
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.navbar{
+    border-bottom: 1px solid black;
+    height: 50px;
+    padding: 10px;
+}
+.menulinks ul{
+    list-style-type: none;
+}
+.menulinks ul a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+}
+.menulinks ul a:hover{
+    background-color: #15B935;
+    color: white;
+}
+.menulinks ul li{
+    display: inline-block;
+}
+.logo{
+    float: left; 
+    padding: 10px 100px;
+}
+.menulinks{
+     float: right; 
+}
+/*navbar ends*/
+/*section 1 starts*/
+#section1{
+    background-image: url(../images/green.png);
+    padding: 10% 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#section1 h1,#section1 p{
+    color: white;
+    z-index: 10;
+    line-height: .5;
+    font-family: 'Lato', sans-serif;
+}
+#section1 h1 span{
+    color: #15B935;
+}
+#section1 button{
+    z-index: 10
+}
+.top{
+    background-color: green;
+    color: white;
+    bottom: 100px;
+    right: 100px;
+}
+/*section1 ends*/
+#section2{
+    padding: 5%;
+}
+#section2 h1{
+    text-align: center;
+    font-family: MyFont;
+}
+@font-face{
+    font-family: MyFont;
+    src : url(../fonts/Gugi-Regular.ttf);
+}
+i{
+    font-size: 32px;
+    color: red;
+}
+#section2 a{
+    background-color: black;
+    padding: 50px;
+    border-radius: 50%;
+}
+#section2 h1{
+    text-align: center;
+    font-family: MyFont;
+}
+@font-face{
+    font-family: MyFont;
+    src : url(../fonts/Gugi-Regular.ttf);
+}
+i{
+    font-size: 32px;
+    color: red;
+}
+#section2 p{
+    font-family: sans-serif;
+    float: left;
+    font-weight: 100;
+    color: black;
+    font-size: 12px;
+    text-align:left;}
+
+#section2 h3{
+    float: left;
+    color: green;
+}
+
+.boundary{
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    text-align: center
+}
+.boundary img{
+    height: 200px;
+    width: 320px;
+    margin:auto;
+    float: left;
+
+} 
+.inner{
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+#section3 h1{
+    text-align: center;
+    font-family: MyFont;
+    color: green;
+}
+.profile{
+    height: 500px;
+/*    border: 1px solid black;*/
+    width: 100%;
+    background-color: gainsboro;
+}
+.pic{
+    width: 30%;
+    height: 400px;
+    float: left;
+/*    border: 1px solid black;*/
+    margin: 20px;
+    text-align: center;
+}
+.shape{
+    height: 200px;
+    width: 40%;
+    margin: auto;
+    margin: 20px;
+    border-radius: 50%;
+}
+h5{
+    text-align: center;
+    color: green;
+    font-size: 15px;
+}
+h4{
+    text-align: center;
+    font-weight: 100;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.foot{
+    height: 300px;
+    width: 30%;
+    float:left;
+/*    border: 1px solid white;*/
+    margin-right: 60px;
+}
+.foot ul li {
+    color: aliceblue;
+    padding: 2px;
+    
+}
+h2{
+    color: #15B935;
+     font-family: MyFont;
+}
+
+i{
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+button{
+    height: 40px;
+    width: 20%;
+    color: white;
+    background-color:#15B935;
+    border: none;
+    
+}
+input{
+    height: 35px;
+    border: none;
+}
+.cla{
+    font-size: 15px;
+}
+
+
+
+
+
+
